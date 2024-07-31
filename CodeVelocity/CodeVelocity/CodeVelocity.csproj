@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeVelocityAuthentications\CodeVelocityAuthentications.csproj" />
+    <ProjectReference Include="..\CodeVelocityBusinessLogic\CodeVelocityBusinessLogic.csproj" />
+    <ProjectReference Include="..\CodeVelocityDAL\CodeVelocityDAL.csproj" />
+    <ProjectReference Include="..\CodeVelocityResources\CodeVelocityResources.csproj" />
+    <ProjectReference Include="..\CodeVelocityServices\CodeVelocityServices.csproj" />
+    <ProjectReference Include="..\CodeVelocityUIModels\CodeVelocityUIModels.csproj" />
+  </ItemGroup>
+
+</Project>
